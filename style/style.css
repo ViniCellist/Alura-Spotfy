@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+    --color1: #000000;
+    --color2: #ffffff;
+}
+
+body {
+    background-color: var(--color1);
+}
+
+h1 {
+    color: var(--color2);
+}
