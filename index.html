@@ -7,20 +7,15 @@
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="shortcut icon" href="src/assets/icons/favicon.png" type="image/x-icon">
-    <link 
-        rel="stylesheet" 
-        href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
-        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" 
-        crossorigin="anonymous" 
-    />
-    <link 
-        rel="stylesheet" 
-        href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
-        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
 </head>
 <body>
-    <div class="sidebar">
+    <header>
+
+    </header>
+    <aside class="sidebar">
+        
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="#">
@@ -42,7 +37,49 @@
                 </li>
             </ul>
         </nav>
-    </div>
+
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playslit</span>
+                    <span class="text subtitle">É facil, vamos te ajudar.</span>
+                    <button class="section-playlist__button">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>
+
+    </aside>
+    
+    <footer class="downbar">
+        <div class="footer-content">
+            <span class="footer-content__text">TESTAR O PREMIUM DE GRAÇA</span>
+            <span class="footer-content__text">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</span>
+        </div>
+        <div class="footer-content">
+            <button class="footer-content__button">Inscreva-se grátis</button>
+        </div>
+    </footer>
+
     <script src="app/script.js"></script>
 </body>
 </html>
