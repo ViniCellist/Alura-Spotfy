@@ -95,3 +95,28 @@
     font-weight: 700;
     border-radius: 2.5rem;
 }
+
+.playlist {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:  0.625rem;
+    margin: 1.25rem;
+    border-radius: 0.5rem;
+    background-color: var(--color3);
+}
+
+.playlist .playlist__title {
+    color: var(--color2);
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-family: var(--fontDM);
+}
+
+.playlist .playlist__text {
+    color: var(--color2);
+    margin-top: 2rem;
+    font-family: var(--fontDM);
+}
