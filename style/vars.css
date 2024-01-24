@@ -1,0 +1,15 @@
+:root {
+    /*color*/
+    --color1: #000000;
+    --color2: #ffffff;
+    --color3: #121212;
+    --color4: #b3b3b3;
+    --color5: #242424;
+    --color6: #878787;
+    --color7: #131313;
+    --color-login: #a7a7a7;
+    --arrow-color: rgba(0, 0, 0, 7)
+
+    /*font*/
+    --fontDM: "DM Sans", sans-serif;
+}
