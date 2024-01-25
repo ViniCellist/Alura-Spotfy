@@ -158,11 +158,11 @@
   }
   
   .card1 {
-      background-color: var(--card1);
+      background: var(--card1);
   }
 
   .card2 {
-      background-color: var(--card2);
+      background: var(--card2);
   }
 
   .card3 {
