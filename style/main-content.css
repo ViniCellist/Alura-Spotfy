@@ -15,13 +15,13 @@
     background-color: var(--color1);
 }
 
-.header__navigation .navigation {
+.navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.header__navigation .navigation .arrow-left {
+.arrow-left {
     margin-right: 0.9375rem;
 }
 
@@ -78,7 +78,7 @@
     align-items: center;
 }
 
-.header__login .subscribe {
+.subscribe {
     color: var(--text-sub);
     font-size: 1rem;
     font-weight: 700;
@@ -86,7 +86,7 @@
     margin-right: 2rem;
 }
 
-.header__login .login {
+.login {
     width: 6.25rem;
     height: 3rem;
     color: var(--text-base-dark);
@@ -106,14 +106,14 @@
     background-color: var(--color1);
 }
 
-.result-playlist .playlist .playlist__title {
+.playlist__title {
     color: var(--text-base-light);
     font-size: 2rem;
     margin-top: 2rem;
     font-family: var(--fontDM);
 }
 
-.result-playlist .playlist .playlist__text {
+.playlist__text {
     color: var(--text-base-light);
     margin-top: 2rem;
     font-family: var(--fontDM);
@@ -157,180 +157,180 @@
     font-weight: 700;
   }
   
-.card1 {
-    background-color: var(--card1);
-}
+  .card1 {
+      background-color: var(--card1);
+  }
 
-.card2 {
-    background-color: var(--card2);
-}
+  .card2 {
+      background-color: var(--card2);
+  }
 
-.card3 {
-    background: var(--card3);
-    }
+  .card3 {
+      background: var(--card3);
+      }
 
-.card4 {
-    background: var(--card4);
-}
+  .card4 {
+      background: var(--card4);
+  }
 
-.card5 {
-    background: var(--card5);
-}
+  .card5 {
+      background: var(--card5);
+  }
 
-.card6 {
-    background: var(--card6);
-}
+  .card6 {
+      background: var(--card6);
+  }
 
-.card7 {
-    background: var(--card7);
-}
+  .card7 {
+      background: var(--card7);
+  }
 
-.card8 {
-    background: var(--card8);
-}
+  .card8 {
+      background: var(--card8);
+  }
 
-.card9 {
-    background: var(--card9);
-}
+  .card9 {
+      background: var(--card9);
+  }
 
-.card10 {
-    background: var(--card10);
-}
+  .card10 {
+      background: var(--card10);
+  }
 
-.card11 {
-    background: var(--card11);    
-}
+  .card11 {
+      background: var(--card11);    
+  }
 
-.card12 {
-    background: var(--card12);
-}
+  .card12 {
+      background: var(--card12);
+  }
 
-.card13 {
-    background: var(--card13);
-}
+  .card13 {
+      background: var(--card13);
+  }
 
-.card14 {
-    background: var(--card14);
-}
+  .card14 {
+      background: var(--card14);
+  }
 
-.card15 {
-    background: var(--card15);
-}
+  .card15 {
+      background: var(--card15);
+  }
 
-.offer__list-item img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: auto;
-  width: 6.688rem;
-  transform: rotate(25deg) translate(18%, -2%);
-}
+  .offer__list-item img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 6.688rem;
+    transform: rotate(25deg) translate(18%, -2%);
+  }
 
-.artist {
-  --column-count: 5;
-  --grid-gap: 1.5rem;
-  --min-container-width: 23.25rem;
-}
+  .artist {
+    --column-count: 5;
+    --grid-gap: 1.5rem;
+    --min-container-width: 23.25rem;
+  }
 
-.hidden {
-  display: none;
-}
+  .hidden {
+    display: none;
+  }
 
-.grid-container {
-  grid-gap: var(--grid-gap);
-  display: grid;
-  grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
-  min-width: var(--min-container-width);
-}
+  .grid-container {
+    grid-gap: var(--grid-gap);
+    display: grid;
+    grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
+    min-width: var(--min-container-width);
+  }
 
-.artist-card {
-  background: #181818;
-  border-radius: 0.5rem;
-  -ms-flex: 1;
-  flex: 1;
-  isolation: isolate;
-  padding: 1rem;
-  position: relative;
-  transition: background-color 0.3s ease;
-  width: 100%;
-}
+  .artist-card {
+    background: #181818;
+    border-radius: 0.5rem;
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 1rem;
+    position: relative;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
 
-.artist-card:hover {
-  background-color: #252525;
-}
+  .artist-card:hover {
+    background-color: #252525;
+  }
 
-.card-img {
-  padding-bottom: 100%;
-  position: relative;
-  width: 100%;
-  margin-bottom: 16px;
-}
+  .card-img {
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+  }
 
-.artist-img {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  border-radius: 50%;
-}
+  .artist-img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 50%;
+  }
 
-.card-text {
-  display: flex;
-  flex-direction: column;
-  color: var(--text-base-light);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  min-height: 3.875rem;
-}
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-base-light);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 3.875rem;
+  }
 
-.card-text a {
-  display: inline-block;
-  max-width: 100%;
-  vertical-align: middle;
-}
+  .card-text a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
 
-.artist-name {
-  box-sizing: border-box;
-  margin-block: 0px;
-  font-size: 1rem;
-  font-weight: 700;
-  padding-block-end: 0.5rem;
-}
+  .artist-name {
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-block-end: 0.5rem;
+  }
 
-.artist-categorie {
-  color: #6a6a6a;
-  font-weight: 400;
-  font-size: 0.875rem;
-}
+  .artist-categorie {
+    color: #6a6a6a;
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
 
-.play {
-  position: relative;
-}
+  .play {
+    position: relative;
+  }
 
-.play .fa-play {
-  position: absolute;
-  right: 0.625rem;
-  top: 7.5rem;
-  padding: 1.125rem;
-  background-color: #1db954;
-  border-radius: 100%;
-  font-size: 0.875rem;
-  opacity: 0;
-  transition: all ease 0.4s;
-}
+  .play .fa-play {
+    position: absolute;
+    right: 0.625rem;
+    top: 7.5rem;
+    padding: 1.125rem;
+    background-color: #1db954;
+    border-radius: 100%;
+    font-size: 0.875rem;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
 
-.artist-card:hover .play .fa-play {
-  opacity: 1;
-  transform: translateY(-20px);
-}
+  .artist-card:hover .play .fa-play {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
 
-.play .fa-play:hover {
-  padding: 1.25rem;
-  cursor: pointer;
-}
+  .play .fa-play:hover {
+    padding: 1.25rem;
+    cursor: pointer;
+  }
 
-#result-artist {
-  padding: 1.25rem 2.5rem;
-}
+  #result-artist {
+    padding: 1.25rem 2.5rem;
+  }
