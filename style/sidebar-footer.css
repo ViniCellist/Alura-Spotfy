@@ -177,11 +177,13 @@ h1 {
 }
 
 .downbar {
+    margin-left: 1.5rem;
+    border-radius: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 98vw;
-    height: 70px;
+    width: 95vw;
+    height: 6.5rem;
     background-image: linear-gradient(to right, rgb(182, 46, 130), rgb(78, 78, 226));
 }
 
