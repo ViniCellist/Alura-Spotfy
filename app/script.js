@@ -6,7 +6,7 @@ function requestAPI(searchTerm) {
     fetch(`http://localhost:3000/artists?name_like=${searchTerm}`)
         .then((response) => response.json())
         .then((results) => displayResults(results));
-}
+};
 
 function displayResults(results) {
     hidePlaylist();
@@ -18,11 +18,11 @@ function displayResults(results) {
         artistName.innerText = element.name;
     });
     resultArtist.classList.remove('hidden');
-}
+};
 
 function hidePlaylist() {
     resultPlaylist.classList.add('hidden');
-}
+};
 
 searchInput.addEventListener('input', function () {
     const searchTerm = searchInput.value.toLowerCase();
@@ -30,7 +30,7 @@ searchInput.addEventListener('input', function () {
         resultPlaylist.classList.remove('hidden');
         resultArtist.classList.add('hidden');
         return;
-    }
+    };
     requestAPI(searchTerm);
 });
 
