@@ -69,5 +69,5 @@ Keep my focus on becoming a fullstack Dev...
 ## Author
 
 - GitHub - [Personal Profile](https://github.com/ViniCellist)
-- LinkedIn - [Professional Profile](https://www.linkedin.com/in/vinicius-de-souza-duarte-57937b192/)
+- LinkedIn - [Professional Profile](https://www.linkedin.com/in/viniciussouzaduarte/)
 - Instagram - [Personal Profile](https://www.instagram.com/vinicius_duartesd/)
